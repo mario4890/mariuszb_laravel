@@ -25,5 +25,12 @@ Route::post('/admin/about/save', 'AdminController@save')->middleware('auth');
 Route::get('/admin/project', 'AdminController@project')->middleware('auth');
 Route::post('/admin/project/save', 'AdminController@save')->middleware('auth');
 
+Route::post('/send', function () {
+    // send an email to "batman@batcave.io"
+    Mail::to('poczta@mariuszb.eu')->send(new \App\Mail\Mariuszb_website());
+    
+    return redirect('/');
+});
+
 
 Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');

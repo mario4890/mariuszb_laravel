@@ -40,7 +40,8 @@
 
         <section id="contact">
             <div id="Header" class="container">
-                <form action="" method="POST">
+                <form action="/send" method="POST">
+                    {{ csrf_field() }}
                     <div class="row form" style="padding-top: 40px">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                             <input class="name" type="text" name="name" placeholder="Imię i nazwisko" required style="min-width: 100%; height: 40px; font-size: 20px">
@@ -53,7 +54,7 @@
                     </div>
                     <div class="row form" style="padding-top: 30px">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                            <textarea class="message" rows="8" cols="50" name="wiad" style="min-width: 100%; font-size: 20px" placeholder="Wiadomość"></textarea>
+                            <textarea class="message" rows="8" cols="50" name="message" style="min-width: 100%; font-size: 20px" placeholder="Wiadomość"></textarea>
                         </div>
                     </div>
                     <div class="row form" style="padding-top: 40px; padding-bottom: 110px" >
