@@ -23,146 +23,161 @@ button, input, select, textarea {
 }
 
 ::-webkit-scrollbar {
-  width: 11px;
-  height: 11px;
+    width: 11px;
+    height: 11px;
 }
 ::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
+    width: 0px;
+    height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
+    background: #ffffff;
 }
 ::-webkit-scrollbar-thumb:active {
-  background: #000000;
+    background: #000000;
 }
 ::-webkit-scrollbar-track {
-  background: #27f004;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #27f004;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
-  background: #837a49;
+    background: #837a49;
 }
 ::-webkit-scrollbar-track:active {
-  background: #f0ecf0;
+    background: #f0ecf0;
 }
 ::-webkit-scrollbar-corner {
-  background: transparent;
+    background: transparent;
 }
 
 ::-moz-scrollbar {
-  width: 11px;
-  height: 11px;
+    width: 11px;
+    height: 11px;
 }
 ::-moz-scrollbar-button {
-  width: 0px;
-  height: 0px;
+    width: 0px;
+    height: 0px;
 }
 ::-moz-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 ::-moz-scrollbar-thumb:hover {
-  background: #ffffff;
+    background: #ffffff;
 }
 ::-moz-scrollbar-thumb:active {
-  background: #000000;
+    background: #000000;
 }
 ::-moz-scrollbar-track {
-  background: #27f004;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #27f004;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 ::-moz-scrollbar-track:hover {
-  background: #837a49;
+    background: #837a49;
 }
 ::-moz-scrollbar-track:active {
-  background: #f0ecf0;
+    background: #f0ecf0;
 }
 ::-moz-scrollbar-corner {
-  background: transparent;
+    background: transparent;
 }
 
 
 :-moz-scrollbar {
-  width: 11px;
-  height: 11px;
+    width: 11px;
+    height: 11px;
 }
 :-moz-scrollbar-button {
-  width: 0px;
-  height: 0px;
+    width: 0px;
+    height: 0px;
 }
 :-moz-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 :-moz-scrollbar-thumb:hover {
-  background: #ffffff;
+    background: #ffffff;
 }
 :-moz-scrollbar-thumb:active {
-  background: #000000;
+    background: #000000;
 }
 :-moz-scrollbar-track {
-  background: #27f004;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #27f004;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 :-moz-scrollbar-track:hover {
-  background: #837a49;
+    background: #837a49;
 }
 :-moz-scrollbar-track:active {
-  background: #f0ecf0;
+    background: #f0ecf0;
 }
 :-moz-scrollbar-corner {
-  background: transparent;
+    background: transparent;
 }
 
 :-ms-scrollbar {
-  width: 11px;
-  height: 11px;
+    width: 11px;
+    height: 11px;
 }
 :-ms-scrollbar-button {
-  width: 0px;
-  height: 0px;
+    width: 0px;
+    height: 0px;
 }
 :-ms-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #e1e1e1;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 :-ms-scrollbar-thumb:hover {
-  background: #ffffff;
+    background: #ffffff;
 }
 :-ms-scrollbar-thumb:active {
-  background: #000000;
+    background: #000000;
 }
 :-ms-scrollbar-track {
-  background: #27f004;
-  border: 0px none #ffffff;
-  border-radius: 50px;
+    background: #27f004;
+    border: 0px none #ffffff;
+    border-radius: 50px;
 }
 :-ms-scrollbar-track:hover {
-  background: #837a49;
+    background: #837a49;
 }
 :-ms-scrollbar-track:active {
-  background: #f0ecf0;
+    background: #f0ecf0;
 }
 :-ms-scrollbar-corner {
-  background: transparent;
+    background: transparent;
 }
 
+.imieNazwisko {
+    padding-top: 90px;
+    font-size: 125px;
+}
+
+.containerAbout {
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+
+} 
+
+.containerAbout p {
+    font-size: 20px;
+}
 
 .container {
     overflow-y: auto;
-    width: 1000px;
     height: 100vh;
 
 } 
@@ -172,7 +187,7 @@ button, input, select, textarea {
 }
 
 .containerCV {
-    padding-right: 50px;
+    padding: 0px 50px;
 }
 
 body {
@@ -189,6 +204,10 @@ body {
     min-width: 100%;
     min-height: 100vh;
     background: url("../image/computer4.jpg") top/cover no-repeat;
+}
+
+.shortText {
+    left: 15%;
 }
 
 .string {
@@ -405,43 +424,12 @@ table tr td {
     width: 180px
 }
 
-@media screen and (min-width: 1000px) {
-    .imieNazwisko {
-        padding-top: 90px;
-        font-size: 80px;
-    }
-    #zdjecieCV {
-        margin-left: 20%;
-        padding-top: 20px;
-        max-width: 200px;
-    }
-}
-
-@media screen and (max-width: 999px) {
-    .imieNazwisko {
-        padding-top: 60px;
-        font-size: 50px;
-    }
-    #zdjecieCV {
-        margin-left: 20%;
-        padding-top: 20px;
-        max-width: 150px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .imieNazwisko {
-        text-align: center;
-    }
-}
 
 #about {
     display: none;
 }
 
-#about .container {
-    overflow-y: hidden;
-}
+
 
 #about .container p {
     text-align: left;
@@ -485,6 +473,10 @@ footer {
     width: 800px;
 }
 
+#zdjecieCV {
+    max-width: 75%;
+}
+
 .top-panel {
     background-color: yellowgreen;
     text-align: right;
@@ -506,4 +498,277 @@ footer {
 
 .middle-panel button:nth-child(1) {
     margin-left: 152px;
+}
+
+#about .container {
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 1334px) and (min-width: 1281) {
+    .cornerAbout {
+        position: absolute;
+        z-index: 3;
+        top: 0px;
+        left: 0px;
+        border-top: 100px solid rgba(206, 206, 206, 0.5);
+        border-right: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerAbout:hover {
+        border-top: 100px solid white;
+        border-right: 100px solid transparent;
+    }
+
+    .cornerAbout p {
+        position: absolute;
+        z-index: 4;
+        top: -120px;
+        left: 14px;
+        width: 100px;
+        transform: rotate(-47deg);
+        -webkit-transform: rotate(-47deg);
+        -moz-transform: rotate(-46deg);
+        -o-transform: rotate(-47deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerCV {
+        position: absolute;
+        z-index: 3;
+        top: 0px;
+        right: 0px;
+        border-top: 100px solid rgba(206, 206, 206, 0.5);
+        border-left: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerCV:hover {
+        border-top: 100px solid white;
+        border-left: 100px solid transparent;
+    }
+
+    .cornerCV p {
+        position: absolute;
+        z-index: 4;
+        top: -103px;
+        left: -66px;
+        width: 50px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerProject {
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        left: 0px;
+        border-bottom: 100px solid rgba(206, 206, 206, 0.5);
+        border-right: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerProject:hover {
+        border-bottom: 100px solid white;
+        border-right: 100px solid transparent;
+    }
+
+    .cornerProject p {
+        position: absolute;
+        z-index: 4;
+        top: 90px;
+        left: 0px;
+        width: 100px;
+        transform: rotate(10deg);
+        -webkit-transform: rotate(-47deg);
+        -moz-transform: rotate(-47deg);
+        -o-transform: rotate(-47deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerContact {
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        right: 0px;
+        border-bottom: 100px solid rgba(206, 206, 206, 0.5);
+        border-left: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerContact:hover {
+        border-bottom: 100px solid white;
+        border-left: 100px solid transparent;
+    }
+
+    .cornerContact p {
+        position: absolute;
+        z-index: 4;
+        top: 94px;
+        left: -77px;
+        width: 71px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(42deg);
+        -o-transform: rotate(45deg);
+        font-family: Georgia, serif;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .imieNazwisko {
+        padding-top: 90px;
+        font-size: 80px;
+    }
+    #zdjecieCV {
+        margin-left: 20%;
+        padding-top: 20px;
+        max-width: 200px;
+    }
+
+    #about .container {
+        overflow-y: scroll;
+    }
+
+    #about .container p {
+        text-align: left;
+        margin-top: 0vh;
+        transform: translateY(0%);
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .cornerAbout {
+        position: absolute;
+        z-index: 3;
+        top: 0px;
+        left: 0px;
+        border-top: 100px solid rgba(206, 206, 206, 0.5);
+        border-right: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerAbout:hover {
+        border-top: 100px solid white;
+        border-right: 100px solid transparent;
+    }
+
+    .cornerAbout p {
+        position: absolute;
+        z-index: 4;
+        top: -90px;
+        left: -2px;
+        width: 100px;
+        transform: rotate(-47deg);
+        -webkit-transform: rotate(-47deg);
+        -moz-transform: rotate(-46deg);
+        -o-transform: rotate(-47deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerCV {
+        position: absolute;
+        z-index: 3;
+        top: 0px;
+        right: 0px;
+        border-top: 100px solid rgba(206, 206, 206, 0.5);
+        border-left: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerCV:hover {
+        border-top: 100px solid white;
+        border-left: 100px solid transparent;
+    }
+
+    .cornerCV p {
+        position: absolute;
+        z-index: 4;
+        top: -70px;
+        left: -55px;
+        width: 50px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerProject {
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        left: 0px;
+        border-bottom: 100px solid rgba(206, 206, 206, 0.5);
+        border-right: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerProject:hover {
+        border-bottom: 100px solid white;
+        border-right: 100px solid transparent;
+    }
+
+    .cornerProject p {
+        position: absolute;
+        z-index: 4;
+        top: 60px;
+        left: 0px;
+        width: 100px;
+        transform: rotate(10deg);
+        -webkit-transform: rotate(42deg);
+        -moz-transform: rotate(42deg);
+        -o-transform: rotate(42deg);
+        font-family: Georgia, serif;
+    }
+
+    .cornerContact {
+        position: absolute;
+        z-index: 3;
+        bottom: 0px;
+        right: 0px;
+        border-bottom: 100px solid rgba(206, 206, 206, 0.5);
+        border-left: 100px solid transparent;
+        cursor: pointer;
+    }
+
+    .cornerContact:hover {
+        border-bottom: 100px solid white;
+        border-left: 100px solid transparent;
+    }
+
+    .cornerContact p {
+        position: absolute;
+        z-index: 4;
+        top: 50px;
+        left: -77px;
+        width: 71px;
+        transform: rotate(-47deg);
+        -webkit-transform: rotate(-47deg);
+        -moz-transform: rotate(-47deg);
+        -o-transform: rotate(-47deg);
+        font-family: Georgia, serif;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .imieNazwisko {
+        padding-top: 60px;
+        font-size: 50px;
+    }
+    #zdjecieCV {
+        margin-left: 20%;
+        padding-top: 20px;
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imieNazwisko {
+        text-align: center;
+    }
 }

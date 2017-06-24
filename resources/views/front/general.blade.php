@@ -11,10 +11,12 @@
         </section>
         <section id="project">
             <div id="Header" class="container">
+                <div class="projectCenter">
                 <?php
                     $projectCode = htmlspecialchars_decode($projectContent);
                     echo "$projectCode";
                 ?>
+                </div>
             </div>
         </section>
 
@@ -28,7 +30,7 @@
         </section>
 
         <section id="about">
-            <div class="container">
+            <div class=" container">
                 <p>
                 <?php
                     $aboutCode = htmlspecialchars_decode($aboutContent);
@@ -54,7 +56,7 @@
                     </div>
                     <div class="row form" style="padding-top: 30px">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                            <textarea class="message" rows="8" cols="50" name="message" style="min-width: 100%; font-size: 20px" placeholder="Wiadomość"></textarea>
+                            <textarea class="message" rows="8" name="message" style="min-width: 100%; font-size: 20px" placeholder="Wiadomość"></textarea>
                         </div>
                     </div>
                     <div class="row form" style="padding-top: 40px; padding-bottom: 110px" >
